@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width ,intial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="icon" href="images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Quicksand:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+<style type="text/css">
+    .txt {
+        border-collapse: collapse;
+        margin: 25px 0;
+        /* font-size: 0.9em; */
+        width: 1850px;
+        margin-left: 10px;
+        border: 2px solid black;
+        font-family: 'Quicksand', sans-serif;
+
+    }
+
+    .txt th {
+        /* font-size: 30px; */
+        text-align: center;
+        overflow-wrap: normal;
+        color: rgb(146, 83, 31);
+        background-color: rgb(138, 193, 202);
+        column-span: 4px;
+        border: 1px solid black;
+        padding: 12px 15px;
+        width: 1000px;
+    }
+
+    .txt td {
+        padding: 10px;
+        /* font-size: 20px; */
+        overflow-wrap: normal;
+        color: black;
+        column-span: 4px;
+        border-right: 1px solid black;
+        text-align: left;
+        padding: 12px 15px;
+    }
+
+
+    .txt td:hover {
+        background-color: rgb(222, 247, 154);
+    }
+
+    ol {
+        text-align: left;
+        list-style-position: inside;
+        padding: 2px;
+
+    }
+
+    img {
+        padding: 10px;
+    }
+
+    .head {
+        border: 1px solid black;
+    }
+
+    ::placeholder {
+        text-align: left;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .button {
+        background-color: #c47493;
+        border: 1px solid #c47493;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .button1 {
+        background-color: black;
+        color: #ffffff;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    .button2 {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border: 2px solid #000000;
+        border-radius: 50%;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        background: #555777;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition-duration: 1s;
+    }
+
+    .button1:hover {
+        background-color: grey;
+    }
+</style>
+<script src="script.js"></script>
+
+<body onload="loaded();">
+    <div class="links" id="navlinks">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Achieve">Achievements</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#News">News and Updates</a></li>
+        </ul>
+    </div>
+
+    <div class="main" id="Home">
+        <br><br>
+        <section class="header">
+            <div class="Text">
+                <h1>Hello There!</h1>
+                <h3>I am Anush 👋</h3>
+            </div>
+        </section>
+    </div>
+
+    <div class="main" id="About">
+        <br><br><br><br>
+        <table class="txt" id="font1">
+            <tr>
+                <th colspan="5">
+                    About Myself
+                </th>
+            </tr>
+            <tr>
+                <td colspan="1"><img src="images/profile.jpg" width="250" height="300"></th>
+                <td colspan="4">
+                   There is nothing much to say about me. <br>
+                    A CSE student studying in IIIT-Hyderabad<br>
+                    Loves playing badminton <br>
+                    Is Currently Enjoying campus life <br>
+                    Likes to roam Around except during close assignment deadlines and exams....<br>
+                    Check out my webpage and <strong><a href=localfile.html style="color:black;text-decoration: none;">find</a></strong> the link to local file😊<br>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="main" id="Education">
+        <br><br><br><br>
+        <table class="txt" id="font2">
+            <tr>
+                <th colspan="5">
+                    Educational Background
+                </th>
+            </tr>
+
+            <tr class="head">
+                
+                    <td colspan="1"><b>Year</b></td>
+                    <td colspan="2"><b>Institute</b></td>
+                    <td colspan="2"><b>Stream and Grade</b></td>
+                </div>
+            </tr>
+                <tr>
+                    <td colspan="1">2019</td>
+                    <td colspan="2">St Andrews School-Hyderabad</td>
+                    <td colspan="2">Xth Grade Cbse Board Exam - 97.0%</td>
+                </tr>
+                <tr>
+                    <td colspan="1">2020</td>
+                    <td colspan="2">Fiitjee Junior College-Hyderabad</td>
+                    <td colspan="2">XIth Grade State(TSBIE) Board Exam - 98.0%</td>
+                </tr>
+                <tr>
+                    <td colspan="1">2021</td>
+                    <td colspan="2">Fiitjee Junior College-Hyderabad</td>
+                    <td colspan="2">XIIth Grade State(TSBIE) Board Exam - 98.0%</td>
+                </tr>
+                <tr>
+                    <td colspan="1">2021</td>
+                    <td colspan="2">IIIT-Hyderabad</td>
+                    <td colspan="2">B.Tech In CSE (Semester 1)-9.64 CGPA</td>
+                </tr>
+            </div>
+        </table>
+    </div>
+
+    <div class="main" id="Achieve">
+        <br><br><br><br>
+
+        <table class="txt" id="font3">
+            <tr>
+                    <th colspan="5">Achievements</th>
+            </tr>
+            <tr class="head">
+                    <td colspan="1"><b>Year</b></td>
+                    <td colspan="4"><b>Achieved</b></td>
+            </tr>
+            <tr>
+                    <td colspan="1">2013</td>
+                    <td colspan="4">State Rank-2 in 4th Grade Math Olympiad</td>
+            </tr>
+            <tr>
+                    <td colspan="1">2015</td>
+                    <td colspan="4">First in Inter-school General Knowledge Computer Competition </td>
+            </tr>
+            <tr>
+                    <td colspan="1">2018</td>
+                    <td colspan="4">Got 3rd in State Art competition</td>
+            </tr>
+            <tr>
+                    <td colspan="1">2021</td>
+                    <td colspan="4">All India - 977th rank in JEE Main</td>
+            </tr>
+            <tr>
+                    <td colspan="1">2021</td>
+                    <td colspan="4">All India - 1871th rank in JEE Advanced</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="main" id="Skills">
+        <br><br><br><br>
+        <table class="txt" id="font4">
+            <tr>
+                    <th colspan="5">Skills</th>
+            </tr>
+            <tr>
+                <td>
+                        <ol>
+                            <li>Sketching/Painting</li><br>
+                            <li>Programming languages-C(Amateur),Python(Beginner),C++(Beginner)</li><br>
+                            <li>Web development-HTML(Beginner),CSS(Beginner),Javascript(Beginner)</li><br>
+                            <li>Critical Thinking Skills</li><br>
+                            <li>Team management</li>
+
+                        </ol>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main" id="News">
+        <br><br><br><br><br><br>
+        <div id="font5">
+            <h3 style="text-align:center;">Any Updates?</h3>
+        </div>
+        <input type="text" id="user_input" placeholder="Any News?" style="height:400px;width:1500px;margin-left:200px ;">
+        <br><br>
+        <input type="button" id="btn1" class="button1" value="Click To update" style="margin-left: 900px;" onclick="addEntry()"> 
+            <ul id='demo' style="margin-left:50px;"></ul>
+        <br>
+        <strong><p style="text-align:center;color:red">Be Careful before clicking the below button</p></strong>
+        <br>
+        <input type="button" id="user_input" class="button1" value="Delete List" style="margin-left: 900px;" onclick="clearStorage()">
+    </div>
+
+
+    <table class="txt" id="font6">
+        <tr>
+            <th colspan="5">
+                Cool stuff 😁
+            </th>
+        </tr>
+        <br><br>
+        <tr class="head">
+            <td colspan="5" style="text-align:center"><b>Change Background Color</b></td>
+        </tr>
+        <tr>
+            <td colspan="1">
+                <button type="button" class="button2" onclick="myFunction(0)"
+                    style="background-color:lightcyan"></button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="button2" onclick="myFunction(1)"
+                    style="background-color:lightgreen"></button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="button2" onclick="myFunction(2)"
+                    style="background-color:lightblue"></button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="button2" onclick="myFunction(3)"
+                    style="background-color:lightyellow"></button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="button2" onclick="myFunction(4)" style="background-color:orange"></button>
+            </td>
+        </tr>
+        <tr class="head">
+            <td colspan="5" style="text-align:center"><b>Change Font Size</b></td>
+        </tr>
+        <tr>
+            <td colspan="1">
+                <button type="button" class="button1" onclick="changefontsize('80px')"
+                    style="font-size:40px;background-color:transparent;font-weight:bold;border-color:transparent;width:50px;height:50px;color:#000000;">80x</button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="button1" onclick="changefontsize('60px')"
+                    style="font-size:35px;background-color:transparent;font-weight:bold;border-color:transparent;width:50px;height:50px;color:#000000;">60x</button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="button1" onclick="changefontsize('40px')"
+                    style="font-size:30px;background-color:transparent;font-weight:bold;border-color:transparent;width:50px;height:50px;color:#000000;">40x</button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="button1" onclick="changefontsize('20px')"
+                    style="font-size:30px;background-color:transparent;font-weight:bold;border-color:transparent;width:50px;height:50px;color:#000000;">20x</button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="button1" onclick="changefontsize('10px')"
+                    style="font-size:30px;background-color:transparent;font-weight:bold;border-color:transparent;width:50px;height:50px;color:#000000;">10x</button>
+            </td>
+        </tr>
+        <tr class="head">
+            <td colspan="5" style="text-align:center"><b>Change Back To Original Colour and Font</b></td>
+           
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" onclick="myFunction(5)" class="button2" style="background-color:white"></button>
+            </td>
+            <td colspan="3">
+                <button type="button" class="button1" onclick="changefontsize('16px')"
+                    style="font-size:30px;background-color:transparent;font-weight:bold;border-color:transparent;width:50px;height:50px;color:#000000;">16x</button>
+            </td>
+        </tr>
+        <tr class="head">
+            <td colspan="5" style="text-align:center"><b>Contact ME</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anushanand100@gmail.com">
+                    <img ;border="0" alt="Gmail" src="images/gmaillogo.jpeg" width="200" height="150">
+                </a>
+            </td>
+            <td colspan="2" style="border-right:0px;">
+                <a href="https://www.instagram.com/anush._.anand">
+                    <img ;border="0" alt="Gmail" src="images/insta.jpeg" width="200" height="200">
+                </a>
+            </td>
+            <td colspan="1">
+                <a href="localfile.html">
+                    <p style="font-size:1px">hi</p>
+                </a>
+            </td>
+            
+        </tr>
+
+    </table>
+</body>
+
+</html>

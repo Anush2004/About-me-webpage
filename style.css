@@ -1,0 +1,75 @@
+/*applicable to all html tags*/
+*
+{
+    margin:0;
+    padding:0;
+    
+}
+html{ overflow-y: scroll;}
+
+.header
+{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/headerbg.gif);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    background-attachment: fixed;
+    margin-top: 10px;
+}
+
+.links{
+    display:flex;
+    background-color: black;
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding:2% 5%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+}
+/*for horizontal view of all links*/
+.links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.links ul li a{
+    color:lightblue;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.links ul li::after{
+    content:'';
+    width:0%;
+    height:1px;
+    background:lightcyan;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+.links ul li:hover::after{
+    width:100%;
+}
+.Text{
+    width:90%;
+    color: white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    letter-spacing: 5px;
+    margin-left:100px ;
+    margin-top:20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+.main {
+    margin-top: 60px; 
+  }
